@@ -1,0 +1,50 @@
+:root{
+    --orange-color: #EE8F39;
+    --Brand-color: #44D5CD;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+h1{
+    
+font-family: "Gilda Display";
+font-size: 52px;
+font-weight: 400;
+line-height: 61.2px;
+text-align: center;
+
+}
+.Blurry{
+    width: 450px;
+height: px;
+gap: 0px;
+opacity: 0px;
+margin: 80px 50 50 50px;
+
+}
+
+.Ellipse{
+    width: 333px;
+height: 315px;
+top: 56px;
+left: 49.8px;
+gap: 0px;
+opacity: 0px;
+margin-bottom: 10px;
+
+}
+.Find{
+    width: 432.6px;
+height: 228px;
+top: 24px;
+left: 16.8px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+    

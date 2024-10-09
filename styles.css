@@ -3,10 +3,49 @@
     --Brand-color: #44D5CD;
 
 }
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    
+    }
+
+    body{
+        margin: 0;
+        font-family: Gilda Display;
+        font-family: Urbanist; 
+    }
+     
+
+    
 .nav {
     display: flex;
     justify-content: space-between;
-    
+    max-width: 375;
+    height: 60px;
+}
+
+.nav{
+    padding-top: 16x;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+}
+
+
+.logo{
+    font-family: Gilda Display;
+    font-weight: 400;
+    size: 16px;
+    line-height: 18.83px;
+    color: #25A59E;
+}
+
+.frame{
+    width: 24px;
+    height: 24px;
+    rotate: -0;
+
 }
 h1{
     
@@ -18,33 +57,79 @@ text-align: center;
 
 }
 .Blurry{
-    width: 450px;
-height: px;
-gap: 0px;
-opacity: 0px;
-margin: 80px 50 50 50px;
-
+position: absolute;
+top: 15px;
+left: 50%;
+transform: translate(-50%);
+width: 450px;
+height: 300px;
+z-index: 1;
 }
 
 .Ellipse{
-    width: 333px;
-height: 315px;
+position: absolute;
+bottom: 0;
 top: 56px;
-left: 49.8px;
-gap: 0px;
-opacity: 0px;
-margin-bottom: 10px;
-
+width: 333px;
+height: 315px;
+left: 0px;
+border-radius: 50% 50% 0 0;
+z-index: 2;
 }
+
+
 .Find{
-    width: 432.6px;
-height: 228px;
-top: 24px;
-left: 16.8px;
-gap: 0px;
-opacity: 0px;
+position: absolute
+bottom: 0;
+left: 50%;
+height: auto%;
+background: #,
+max-width: 400px
+z-index: 3;
 
 }
 
 
-    
+    .btn.blue{
+        padding-top: 16px;
+        padding-right: 32px;
+        padding-bottom: 16px;
+        padding-left: 32px;
+        gap: 10px;
+        color: #25A59E;
+        display: inline-block;
+        font-size: 18px;
+        font: Urbanist;
+        text-align: right;
+        color: #ffff;
+        background: var(--Brand-color);
+        text-decoration: none;
+    }
+
+    .btn.light{
+        font-family: Gilda Display;
+        font-size: 15px;
+        line-height: 23px;
+        color: #ffff;
+        border: 0.2px;
+        background-color: #25A59E;
+        text-decoration: none;
+        position: relative;
+        transform: translateY(-50%);
+
+    }
+.arrow-right::after{
+    content: url(image/arrow-right.png);
+    width: 16;
+    height: 16px;
+    position: absolute
+
+}
+.btn.light{
+    padding-left: 0%
+    padding-right: 60%;
+}
+
+.wrapper{
+
+}

@@ -15,7 +15,7 @@
         font-family: Gilda Display;
         font-family: Urbanist; 
     }
-     
+
 
     
 .nav {
@@ -34,7 +34,7 @@
 
 
 .logo{
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-weight: 400;
     size: 16px;
     line-height: 18.83px;
@@ -47,47 +47,60 @@
     rotate: -0;
 
 }
-h1{
+.travel-section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.layout{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+    h1{
     
-font-family: "Gilda Display";
-font-size: 40px;
-font-weight: 400;
-line-height: 61.2px;
-text-align: center;
+    font-family: "Gilda Display";
+    font-size: 52px;
+    margin-top: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 50 ;
 
 }
-.Blurry{
+span {
+    color: #25A59E;
+}
+.blur-svg{
 position: absolute;
-top: 15px;
-left: 50%;
-transform: translate(-50%);
-width: 450px;
-height: 300px;
-z-index: 1;
+width: 400px;
+top: 0;
+left: 0;
+transform: translateY(25%);
+margin-left: 70px;
 }
 
-.Ellipse{
-position: absolute;
-bottom: 0;
-top: 56px;
-width: 333px;
-height: 315px;
-left: 0px;
-border-radius: 50% 50% 0 0;
-z-index: 2;
+.ellipse{
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 240px;
+    transform: translateX(13%);
+    
 }
 
 
-.Find{
-position: absolute
-bottom: 0;
-left: 50%;
-height: auto%;
-background: #,
-max-width: 400px
-z-index: 3;
+.find{
+    width: 432.6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 208px;
+    height: 230px;
+    margin-left: 40px;
 
 }
+
 
 
     .btn.blue{
@@ -131,20 +144,30 @@ z-index: 3;
 }
 
 
-}
+
 .Travel{
     width: 335px;
-    height: 570px;
-    gap: 28px;
+    margin-top: 250px;
+    
+}
 
+.Travel h2{
+    margin-left: 35px;
+    font-family: "Gilda Display";
+    font-size: 40px;
+    line-height: 52px;
+    color: #262626;
 }
-p{
-    font-family: Urbanist;
-    font-weight: 500;
-    size: 16px;
+
+.Travel p{
+    font-family: "Urbanist";
+    font-size: 16px;
     line-height: 24px;
-    text-align: center;
+    color: #595959;
+    transform: translateX(13%);
 }
+    
+
 .Mirror{
     width: fill(335px);
     height: fixed(378px);
@@ -156,6 +179,13 @@ p{
     padding-left: 70px;
     gap: 20px;
     
+}
+
+.Mirror h2{
+    font-family: "Urbanist";
+    font-size: 20px;
+    line-height: 28px;
+    color: #262626;
 }
 
 .Hot{

@@ -168,17 +168,16 @@ margin-left: 70px;
 }
     
 
-.Mirror{
-    width: fill(335px);
-    height: fixed(378px);
-    border: 1px;
-
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 24px;
-    padding-left: 70px;
-    gap: 20px;
+.Mirror img{
+    transform: rotate(-180deg);
     
+}
+.Mirror {
+    margin-left: 60px;
+    border: 2px solid #f2f2f2;
+    padding-left: 15px;
+    width: 375px;
+    padding-top: 8px;
 }
 
 .Mirror h2{
@@ -188,69 +187,62 @@ margin-left: 70px;
     color: #262626;
 }
 
-.Hot{
-    width: fixed(370.67px);
-    height: fixed(404px);
-    top: 1136px;
-    border: 1px;
-
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 24px;
-    padding-left:40px ;
-    gap: 20px;
-
-
-}
-.Lake{
-    width: fixed(370.67px);
-    height: fixed(404px);
-    top: 1136px;
-    border: 1px;
-
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 24px;
-    padding-left:60px ;
-    gap: 20px;
+.location{
+    display: flex;
 }
 
-.Falls{
-    width: fixed(370.67px);
-    height: fixed(404px);
-    top: 1136px;
-    border: 1px;
-
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 24px;
-    padding-left:50px ;
-    gap: 20px;
+.choose h1{
+    font-family: "Gilda Display";
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #262626;
 }
 
-.Sunter{
-    width: fixed(370.67px);
-    height: fixed(404px);
-    top: 1136px;
-    border: 1px;
-
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 24px;
-    padding-left:50px ;
-    gap: 20px;
+.wrapper p{
+    font-family: "Urbanist";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #595959;
+    transform: translateX(1%);
+    
+}
+.section{
+    margin-left: 60px;
+    border: 2px solid #f2f2f2;
+    padding-left: 15px;
+    width: 375px;
+    padding-top: 8px;
+}
+.NavyBlue h1{
+    font-family: "Gilda Display";
+    font-size: 28px;
+    line-height: 40px;
+    color: #ffff;
+}
+.NavyBlue p{
+    font-family: "Urbanist";
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffff;
 }
 
-.Negeri{
-    width: fixed(370.67px);
-    height: fixed(404px);
-    top: 1136px;
-    border: 1px;
-
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 24px;
-    padding-left:50px ;
-    gap: 20px;
+.listtop{
+    border: 4px solid #25A59E;
+    width: 375px;
+    margin-left:-16px;
+    
 }
+    
+    
+
+
+    
+.watch{
+    
+}
+
+
+
 

@@ -406,6 +406,7 @@ footer p{
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 40px;
 }
 .class.logo{
     margin-top: -10px;
@@ -423,13 +424,18 @@ footer p{
     font-size: 16px;
     line-height: 24px;
     color: #595959;
+    margin-bottom: 30px;
+    margin-left: 5px;
     
 }
 
-.app-section .app{
+.social{
     display: flex;
-    align-content:justify;
-    gap: 12px;
-    margin-top: 24px;
-    margin-bottom: 400px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    gap: 5px;
 }

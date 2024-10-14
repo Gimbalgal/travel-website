@@ -15,7 +15,7 @@
         font-family: "Gilda Display";
         font-family: "Urbanist"; 
     }
-.header{
+.head{
     width: 375px;
     height: 473px;
     top: -3px;
@@ -35,7 +35,7 @@
     padding-top: 16x;
     padding-right: 20px;
     padding-bottom: 16px;
-    padding-left: 20px;
+    padding-left: 20px
 }
 
 
@@ -45,6 +45,7 @@
     size: 16px;
     line-height: 18.83px;
     color: #25A59E;
+    margin-right: 375px;
 }
 
 .logo-footer{
@@ -142,7 +143,8 @@ span {
         margin-top: -118px;
         margin-left: 45px;
         margin-bottom: 50px;
-        width: 4;
+        width: 3;
+        padding-top: 11px;
     }
 
     .btn.light{
@@ -157,22 +159,33 @@ span {
         padding-right: 16px 32px;
         display: inline-block;
 }
-
-
-.arrow-right::after{
-    content: url(image/arrow-right.png);
-    width: 16;
-    height: 16px;
-    position: absolute;
-    color: #f2f2f2;
-    
-
+.detail {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding-right: 10px;
+    transform: translateY(50px);
+}
+.detail-1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+.detail-1 h2 {
+    color: #ffff;
+    font-family: "Gilda Display";
+    font-size: 15px;
+    line-height: 23px;
 }
 
+.detail h2{
+    color: #25A59E;
+    font-family: "Gilda Display";
+    font-size: 15px;
+    line-height: 23px;
 
-.btn.light{
-    left: 5px;
-    
 }
 
 
@@ -180,7 +193,6 @@ span {
 .Travel{
     width: 335px;
     margin-top: 250px;
-    
 }
 
 .Travel h2{
@@ -388,10 +400,7 @@ footer{
     padding-bottom: 40px;
     gap: 42px;
     
-
 }
-
-
 
 
 footer .app{
@@ -412,6 +421,8 @@ footer p{
     font-size: 16px;
     line-height: 24px;
     color: #595959;
+    text-align: center;
+    margin-left: 15px;
     
 }
 
@@ -427,6 +438,11 @@ footer p{
 
 a{
     text-decoration: none;
+    font-family: "Urbanist";
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    gap: 27.67px;
 }
 .class h1{
     font-family: "Gilda Display";
@@ -441,18 +457,36 @@ a{
     line-height: 24px;
     color: #595959;
     margin-bottom: 30px;
-    margin-left: 20px;
-    
+    margin-left: 20px;   
+}
+
+.line{
+    width: 375px;
+    border: 1px solid #D9D9D9;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding-right: 40px;
+    padding-left: 20px;
 }
 
 .social{
     display: flex;
-    width: 40px;
+    width: 100px;
     height: 40px;
-    border-radius: 100px;
-    justify-content: space-between;
-    align-content: center;
-    margin-left: 50px;
-    gap: 5px;
+    gap: 2px;
     margin-bottom: 70px;
+    margin-left: 10cqh;
+}
+
+.instagram{
+    margin-left: 90px;
+}
+
+.twitter{
+    margin-left: -140px;
+}
+
+.youtube{
+    margin-left: -70px;
 }

@@ -433,7 +433,8 @@ footer p{
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 40p
+    margin-bottom: 40px;
+    
 }
 
 a{
@@ -442,7 +443,23 @@ a{
     font-size: 16px;
     line-height: 24px;
     color: #595959;
-    gap: 27.67px;
+}
+
+
+.home{
+    margin-left: 20px;
+}
+
+.destination{ 
+    margin-left: -60px;
+}
+
+.guide{
+    margin-left: -70px;
+}
+
+.contact{
+    margin-left: -90px;
 }
 .class h1{
     font-family: "Gilda Display";

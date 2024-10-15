@@ -125,7 +125,6 @@ span {
 }
 
 
-
     .btn.blue{
         padding-top: 16px;
         padding-right: 32px;
@@ -391,6 +390,13 @@ span {
     height:100% ;
     max-height: 740;
     object-fit: cover;
+}
+
+.play{
+    position: absolute;
+    padding-top: -70px;
+    margin-left: -250px;
+    margin-top: 110px;
 }
 footer{
     width: 375px;

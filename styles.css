@@ -23,7 +23,7 @@
 
 
     
-.nav {
+.scrolled {
     display: flex;
     justify-content: space-between;
     max-width: 375;
@@ -31,7 +31,7 @@
     
 }
 
-.nav{
+.scrolled{
     padding-top: 16x;
     padding-right: 20px;
     padding-bottom: 16px;
@@ -223,7 +223,7 @@ span {
     font-family: "Urbanist";
     tab-size: 16px;
     line-height: 24px;
-    text-align: center;
+    text-align: justify;
     color: #595959;
 }
     
@@ -263,6 +263,13 @@ span {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+}
+
+h3{
+    font-family: "Urbanist";
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
 }
 .wrapper p{
     font-family: "Urbanist";
@@ -341,13 +348,15 @@ span {
     font-size: 40px;
     line-height: 52px;
     color: #262626;
+    margin-right: 56px;
 }
 .White p{
     font-family: "Urbanist";
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 150px;
+    margin-left: 70px;
 
 }
 .picture{
@@ -392,12 +401,7 @@ span {
     object-fit: cover;
 }
 
-.play{
-    position: absolute;
-    padding-top: -70px;
-    margin-left: -250px;
-    margin-top: 110git px;
-}
+
 footer{
     width: 375px;
     height: 553px;

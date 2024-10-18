@@ -54,7 +54,7 @@
     size: 16px;
     line-height: 18.83px;
     color: #25A59E;
-    padding-left: 15px;
+    padding-left: 30px;
     padding-bottom: 15px;
 }
 
@@ -90,6 +90,7 @@
     padding-left: 50 ;
 
 }
+
 span {
     color: #25A59E;
 }
@@ -144,6 +145,7 @@ span {
         margin-bottom: 50px;
         width: 3;
         padding-top: 11px;
+        height: 50px;
     }
 
     .btn.light{
@@ -288,18 +290,21 @@ h3{
     padding-top: 8px;
     padding-bottom: 50px;
     gap: 40px;
+    margin-top: 10px;
 }
 .section h1{
     font-family: "Gilda Display";
     font-size: 28px;
     line-height: 40px;
     color: #262626;
+    text-align: left;
 }
 .section p{
     font-family: "Urbanist";
     font-size: 15px;
     line-height: 23px;
     color: #737373;
+    text-align: left;
 }
 .NavyBlue h1{
     font-family: "Gilda Display";
@@ -328,18 +333,24 @@ h3{
     padding-top: 8px;
     background-color: #25A59E;
     gap: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .section-1 h1{
     color: #ffff;
     font-family: "Gilda Display";
     font-size: 28px;
     line-height: 40px;
+    margin-left:  15px;
+    text-align: left;
 }
 .section-1 p{
     color: #ffff;
     font-family: "urbanist";
     font-size: 16px;
     line-height: 24px;
+    margin-left: 15px;
+    text-align: left;
 }
 
 
@@ -419,20 +430,22 @@ footer .app{
     justify-content: space-between;
     margin-left: 20px;
 }
-footer h1{
+.get h1{
     font-family: "Gilda Display";
     font-size: 40px;
     line-height: 52px;
     color: #262626;
+    text-align: left;
+    margin-left: 50px;
 
 }
-footer p{
+.get p{
     font-family: "Urbanist";
     font-size: 16px;
     line-height: 24px;
     color: #595959;
-    text-align: center;
-    margin-left: 15px;
+    text-align: left;
+    margin-left: 30px;
     
 }
 

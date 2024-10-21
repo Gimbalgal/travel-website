@@ -35,7 +35,7 @@ Travel Landing page is a travel base website that is design to make travelling l
 
 ## Live Demo
 
-C: [Live Demo Link](https://gimbalgal.github.io/travel-website/)
+C: [Live Demo Link](https://travel-website-y75u.onrender.com/)
 
 
 ## Features
@@ -53,9 +53,6 @@ C: [Live Demo Link](https://gimbalgal.github.io/travel-website/)
 
 - CSS
 
-- JavaScript
-
-- Any other frameworks, libraries, or tools used (e.g., Bootstrap, Tailwind CSS, React)
 
 
 ## Setup and Installation
@@ -66,7 +63,7 @@ Explain how to set up and run your project locally. Include prerequisites, insta
 
     ```sh
 
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Gimbalgal/travel-website.git
 
     ```
 
@@ -78,37 +75,7 @@ Explain how to set up and run your project locally. Include prerequisites, insta
 
     ```
 
-3\. **Install dependencies:**
 
-    ```sh
-
-    npm install
-
-    ```
-
-    or if you are using yarn:
-
-    ```sh
-
-    yarn install
-
-    ```
-
-4\. **Run the project:**
-
-    ```sh
-
-    npm start
-
-    ```
-
-    or if you are using yarn:
-
-    ```sh
-
-    yarn start
-
-    ```
 
 ## Usage
 

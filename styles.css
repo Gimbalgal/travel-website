@@ -194,6 +194,7 @@ span {
 .Travel{
     width: 335px;
     margin-top: 250px;
+    margin-left: 20px;
 }
 
 .Travel h2{
@@ -211,6 +212,7 @@ span {
     line-height: 24px;
     color: #595959;
     transform: translateX(13%);
+    
 }
 
 .choose h1{
@@ -235,11 +237,12 @@ span {
     
 }
 .Mirror {
-    margin-left: 60px;
+    margin-left: 65px;
     border: 2px solid #f2f2f2;
     padding-left: 15px;
     width: 375px;
     padding-top: 8px;
+    
 }
 
 .Mirror h2{

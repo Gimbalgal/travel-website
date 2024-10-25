@@ -214,11 +214,12 @@ span {
     padding-left: 15px;
     width: 375px;
     padding-top: 8px;
+    gap: 0px
     
 }
 .Mirror-card {
     display: grid;
-    gap: 20px;
+    gap: 0px;
 }
 .Mirror h2{
     font-family: "Urbanist";
@@ -487,6 +488,7 @@ a{
 }
 .cards {
     display: grid;
+    column-gap: 0;
 }
 .image-container{
     width: 800px;
@@ -526,10 +528,13 @@ a{
     .cards {
         grid-template-columns: repeat(3, 1fr);
         transform: translateX(-2%);
+        gap: 0;
+        
     }
     .Wrapper{
         grid-template-columns: repeat(3, 1fr);
         margin-left: -35px;
+        gap: 0;
     } 
     .Travel h2{
         width: 1200px;
@@ -572,8 +577,7 @@ a{
         font-size: 18px;
         line-height: 32px;
         margin-right: -11px;
-        margin-bottom: 200px;
-        
+        margin-bottom: 200px;        
     }
     .Layout h1{
         font-size: 170px;
@@ -587,17 +591,16 @@ a{
         margin-top: 500px;
     }
     .find {
-        height: 433px;
+        width: 1099px;
+        height: 434px;
         transform: translateY(-20%);
-        padding-left: 250px;
+        padding-left: 300px;
         
     }
     .blur-svg{
         transform: translateY(-45%);
         padding-left: 300px;
         width: 1800px;
-
-
     }
     .ellipse{
         margin-top: 50px;
@@ -637,7 +640,7 @@ a{
         margin-right: 50px;
     }
     .btn.blue{
-        margin-left: 1150px;
+        margin-left: 1000px;
         transform: translateY(-200%);
     } 
     .line{

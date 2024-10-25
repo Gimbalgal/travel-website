@@ -85,11 +85,12 @@ span {
 }
 .blur-svg{
     position: absolute;
-    width: 400px;
+    width: 800px;
     top: 0;
     left: 0;
     transform: translateY(25%);
-    margin-left: 70px;
+    margin-left: -80px;
+    margin-top: -157px;
 }
 .ellipse{
     width: 400px;
@@ -564,6 +565,7 @@ a{
         font-size: 72px;
         line-height: 84px;
         margin-top: 200px;
+        margin-left: 50px;
     }
     .White p{
         width: 534px;
@@ -593,7 +595,9 @@ a{
     .blur-svg{
         transform: translateY(-45%);
         padding-left: 300px;
-        background-image: var(--Brand-color);
+        width: 1800px;
+
+
     }
     .ellipse{
         margin-top: 50px;
@@ -608,12 +612,12 @@ a{
         margin-bottom: 100px;
     }
     .watch{
-        width: 1340px;
-        height: 400px;
-        margin-top: -202px;
+        width: 2600px;
+        height: 391px;
+        margin-top: -220px;
     }
     .shape{
-        width: 450px;
+        width: 390px;
     }
     .trip h1{
         font-size: 72px;
